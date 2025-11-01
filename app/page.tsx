@@ -14,14 +14,17 @@ function About() {
           </small>
         </h1>
         <h2 className="font-light text-lg py-4">
-          Engineer <span className="dark:text-white font-medium">@Qiro</span>{" "}
-          building{" "}
+          Full Stack Engineer building innovative blockchain solutions. Previously{" "}
+          <span className="dark:text-white font-medium">@Levitate</span> working on{" "}
           <a
             className="dark:text-white font-semibold underline underline-offset-1"
-            href="https://www.qiro.fi/"
+            href="https://www.inflection.network/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Qiro Finance
+            Inflection Network
           </a>
+          {" "}- accelerating stablecoin adoption for the next billion users
         </h2>
         <div className="flex gap-x-2">
           <a href={socialLinks.Github}>
