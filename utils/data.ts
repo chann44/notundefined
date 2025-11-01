@@ -9,20 +9,20 @@ export const socialLinks = {
 
 export const work: ListItem[] = [
   {
-    title: "Qiro",
-    description: "Full Stack Engineer",
-    right: "Feb-2024 - present",
-    detailedDescription:
-      "Building Qiro Finance, a DeFi platform focused on yield optimization and liquidity management. Working on full-stack development using Next.js, React, and TypeScript for the frontend, and developing robust backend services. Implementing smart contract integrations and creating seamless user experiences for complex financial operations.",
-  },
-  {
     title: "Levitate",
     description: "Full Stack Engineer",
     logo: "/work/levi.jpeg",
-    right: "2023 - 2024",
+    right: "Mar-2025 - present",
     detailedDescription:
       "Building Inflection Network - a next-generation blockchain network accelerating stablecoin adoption for the next billion users. Developed a comprehensive ecosystem enabling instant onboarding with just mobile numbers (no complex wallets or gas fees), gasless global stablecoin transactions, and economic identity profiles. Architected scalable infrastructure supporting worldwide adoption across multiple countries with 10K+ stablecoin miners. Implemented reward systems allowing users to earn USDC directly in their wallets through ecosystem engagement.",
     link: "https://www.inflection.network/",
+  },
+  {
+    title: "Qiro",
+    description: "Full Stack Engineer",
+    right: "Feb-2024 - Mar-2025",
+    detailedDescription:
+      "Building Qiro Finance, a DeFi platform focused on yield optimization and liquidity management. Working on full-stack development using Next.js, React, and TypeScript for the frontend, and developing robust backend services. Implementing smart contract integrations and creating seamless user experiences for complex financial operations.",
   },
   {
     title: "Webloominc",
@@ -47,6 +47,321 @@ export const work: ListItem[] = [
     logo: "/work/komet.jpeg",
     detailedDescription:
       "Gained hands-on experience in frontend development while contributing to Komet's web applications. Learned industry best practices, participated in code reviews, and implemented UI components following design specifications. Worked with React, TypeScript, and modern development tools to deliver features in a collaborative team environment.",
+  },
+];
+
+export const skills = [
+  {
+    name: "TypeScript",
+    frames: [
+      `
+    ╔═══════════╗
+    ║ ████████╗ ║
+    ║    ██║   ║
+    ║    ██║   ║
+    ║    ██║ S ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║ ████████╗ ║
+    ║    ██║ • ║
+    ║    ██║   ║
+    ║    ██║ S ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║ ████████╗ ║
+    ║    ██║   ║
+    ║    ██║ • ║
+    ║    ██║ S ║
+    ╚═══════════╝`,
+    ],
+  },
+  {
+    name: "React",
+    frames: [
+      `
+    ╔═══════════╗
+    ║   ⚛━━⚛   ║
+    ║  ⚛  ◉  ⚛  ║
+    ║   ⚛━━⚛   ║
+    ║  REACT    ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║   ━⚛━⚛   ║
+    ║  ⚛  ◉  ━  ║
+    ║   ━⚛━⚛   ║
+    ║  REACT    ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║   ⚛  ⚛━  ║
+    ║  ━  ◉  ⚛  ║
+    ║   ⚛  ⚛━  ║
+    ║  REACT    ║
+    ╚═══════════╝`,
+    ],
+  },
+  {
+    name: "Next.js",
+    frames: [
+      `
+    ╔═══════════╗
+    ║ ███╗  ██╗ ║
+    ║ ████╗ ██║ ║
+    ║ ██╔██╗██║ ║
+    ║ ██║ ████║ ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║ ███╗  ██╗ ║
+    ║ ████╗▸██║ ║
+    ║ ██╔██╗██║ ║
+    ║ ██║ ████║ ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║ ███╗▸▸██╗ ║
+    ║ ████╗ ██║ ║
+    ║ ██╔██╗██║ ║
+    ║ ██║ ████║ ║
+    ╚═══════════╝`,
+    ],
+  },
+  {
+    name: "Node.js",
+    frames: [
+      `
+    ╔═══════════╗
+    ║  ╱▔▔▔▔╲  ║
+    ║ ╱  ◉◉  ╲ ║
+    ║╱ NODE.JS╲║
+    ║▔▔▔▔▔▔▔▔▔ ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║  ╱▔▔▔▔╲  ║
+    ║ ╱  ●●  ╲ ║
+    ║╱ NODE.JS╲║
+    ║▔▔▔▔▔▔▔▔▔ ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║  ╱▔▔▔▔╲  ║
+    ║ ╱  ○○  ╲ ║
+    ║╱ NODE.JS╲║
+    ║▔▔▔▔▔▔▔▔▔ ║
+    ╚═══════════╝`,
+    ],
+  },
+  {
+    name: "Tailwind CSS",
+    frames: [
+      `
+    ╔═══════════╗
+    ║ ≈≈≈≈≈≈≈≈ ║
+    ║  ▓▓▓▓▓▓  ║
+    ║ ∿∿∿∿∿∿∿∿ ║
+    ║ TAILWIND  ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║ ∿∿∿∿∿∿∿∿ ║
+    ║  ▓▓▓▓▓▓  ║
+    ║ ≈≈≈≈≈≈≈≈ ║
+    ║ TAILWIND  ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║ ≈≈≈≈≈≈≈≈ ║
+    ║  ░░░░░░  ║
+    ║ ∿∿∿∿∿∿∿∿ ║
+    ║ TAILWIND  ║
+    ╚═══════════╝`,
+    ],
+  },
+  {
+    name: "Git",
+    frames: [
+      `
+    ╔═══════════╗
+    ║    ◉     ║
+    ║   ╱│╲    ║
+    ║  ◉ ◉ ◉   ║
+    ║    │     ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║    ●     ║
+    ║   ╱│╲    ║
+    ║  ◉ ◉ ◉   ║
+    ║    │     ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║    ◉     ║
+    ║   ╱│╲    ║
+    ║  ● ◉ ◉   ║
+    ║    │     ║
+    ╚═══════════╝`,
+    ],
+  },
+  {
+    name: "Blockchain",
+    frames: [
+      `
+    ╔═══════════╗
+    ║ [▓]━[▓]━  ║
+    ║  │   │    ║
+    ║ [▓]━[▓]━  ║
+    ║  CHAIN    ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║ [▓]━[●]━  ║
+    ║  │   │    ║
+    ║ [▓]━[▓]━  ║
+    ║  CHAIN    ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║ [▓]━[▓]━  ║
+    ║  │   │    ║
+    ║ [●]━[▓]━  ║
+    ║  CHAIN    ║
+    ╚═══════════╝`,
+    ],
+  },
+  {
+    name: "PostgreSQL",
+    frames: [
+      `
+    ╔═══════════╗
+    ║   ╔═══╗   ║
+    ║   ║ P ║   ║
+    ║   ╚═══╝   ║
+    ║ POSTGRES  ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║   ╔═══╗   ║
+    ║   ║ P ║•  ║
+    ║   ╚═══╝   ║
+    ║ POSTGRES  ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║   ╔═══╗   ║
+    ║  •║ P ║   ║
+    ║   ╚═══╝   ║
+    ║ POSTGRES  ║
+    ╚═══════════╝`,
+    ],
+  },
+  {
+    name: "Go",
+    frames: [
+      `
+    ╔═══════════╗
+    ║  ╭─────╮  ║
+    ║  │ ◉ ◉ │  ║
+    ║  │ ▽▽▽ │  ║
+    ║  ╰─GO──╯  ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║  ╭─────╮  ║
+    ║  │ ● ● │  ║
+    ║  │ ▽▽▽ │  ║
+    ║  ╰─GO──╯  ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║  ╭─────╮  ║
+    ║  │ ○ ○ │  ║
+    ║  │ ▽▽▽ │  ║
+    ║  ╰─GO──╯  ║
+    ╚═══════════╝`,
+    ],
+  },
+  {
+    name: "Drizzle ORM",
+    frames: [
+      `
+    ╔═══════════╗
+    ║ ○ ○ ○ ○  ║
+    ║  ∿∿∿∿∿∿∿  ║
+    ║ ████████  ║
+    ║ DRIZZLE   ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║  ○ ○ ○ ○ ║
+    ║ ○ ∿∿∿∿∿∿  ║
+    ║  ███████  ║
+    ║ DRIZZLE   ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║   ○ ○ ○  ║
+    ║ ○ ○∿∿∿∿∿  ║
+    ║  ○██████  ║
+    ║ DRIZZLE   ║
+    ╚═══════════╝`,
+    ],
+  },
+  {
+    name: "Prisma",
+    frames: [
+      `
+    ╔═══════════╗
+    ║    ╱╲     ║
+    ║   ╱▓▓╲    ║
+    ║  ╱▓▓▓▓╲   ║
+    ║ PRISMA    ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║    ╱╲     ║
+    ║   ╱░░╲    ║
+    ║  ╱▓▓▓▓╲   ║
+    ║ PRISMA    ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║    ╱╲     ║
+    ║   ╱▓▓╲    ║
+    ║  ╱░░░░╲   ║
+    ║ PRISMA    ║
+    ╚═══════════╝`,
+    ],
+  },
+  {
+    name: "Docker",
+    frames: [
+      `
+    ╔═══════════╗
+    ║  ▓▓▓▓▓▓   ║
+    ║  ▓▓▓▓▓▓   ║
+    ║ ≈≈≈≈≈≈≈≈≈ ║
+    ║  DOCKER   ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║  ▓▓▓▓▓▓   ║
+    ║  ▓▓▓▓▓▓   ║
+    ║ ∿∿∿∿∿∿∿∿∿ ║
+    ║  DOCKER   ║
+    ╚═══════════╝`,
+      `
+    ╔═══════════╗
+    ║  ▓▓▓▓▓▓   ║
+    ║  ▓▓▓▓▓▓   ║
+    ║ ~~~~ ~~~~~ ║
+    ║  DOCKER   ║
+    ╚═══════════╝`,
+    ],
   },
 ];
 
@@ -83,3 +398,4 @@ export const projects = [
     desc: " a website to get latest news ",
   },
 ];
+

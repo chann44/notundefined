@@ -1,6 +1,7 @@
 import { ListItem } from "@/components/list-item";
 import { List } from "@/components/list-layout";
-import { projects, socialLinks, work } from "@/utils/data";
+import { SkillsGrid } from "@/components/skills";
+import { projects, skills, socialLinks, work } from "@/utils/data";
 import { LuGithub, LuTwitter, LuLinkedin } from "react-icons/lu";
 
 function About() {
@@ -44,6 +45,11 @@ function About() {
         <p className="">{`These days, my focus is all about the frontend development scene, where I'm having a blast experimenting with technologies like Next.js, React, Tailwind CSS, and TypeScript. It wasn't always a walk in the park, but the idea of creating something that could truly make a difference kept me motivated `}</p>
         <p>{`In my free time, I love diving into programming articles, and I also share my learnings on this blog when I'm not busy building cool stuff. It's all about the fun of learning and sharing,`}</p>
       </article>
+
+      <div className="flex flex-col gap-3">
+        <h2 className="text-2xl font-medium">Skills</h2>
+        <SkillsGrid skills={skills} />
+      </div>
 
       <List title="Experience">
         {work.map((data, index) => {
